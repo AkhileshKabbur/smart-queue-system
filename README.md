@@ -15,5 +15,6 @@ A web-based **Smart Queue Management System** that allows customers to book slot
 
 ---
 
-## 📂 Project Structure  
+## 📂 Project Structure 
+smart-queue-system/ │── backend/ # Node.js Express Backend │ ├── server.js # Main Backend Server │ ├── config/ # Database and Twilio Configurations │ ├── routes/ # API Endpoints │ ├── models/ # Mongoose Models │ ├── .env # Environment Variables │ │── frontend/ # Frontend (HTML, CSS, JS) │ ├── index.html # Main UI Page │ ├── script.js # Client-side Logic │ ├── style.css # Styling │ └── README.md
 
