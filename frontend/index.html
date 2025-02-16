@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Queue Management</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <i class="fas fa-user-clock"></i> Smart Queue Management
+    </header>
+
+    <div class="container">
+        <h2>Join the Queue</h2>
+
+        <div class="input-group">
+            <i class="fas fa-user"></i>
+            <input type="text" id="fullName" placeholder="Full Name">
+        </div>
+
+        <div class="input-group">
+            <i class="fas fa-phone"></i>
+            <input type="text" id="phoneNumber" placeholder="Phone Number">
+        </div>
+
+        <div class="input-group">
+            <i class="fas fa-envelope"></i>
+            <input type="email" id="email" placeholder="Email Address">
+        </div>
+
+        <div class="input-group">
+            <i class="fas fa-tasks"></i>
+            <select id="serviceType">
+                <option value="">Select Service</option>
+                <option value="Consultation">Consultation</option>
+                <option value="Billing">Billing</option>
+                <option value="Support">Support</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <i class="fas fa-clock"></i>
+            <input type="time" id="appointmentTime">
+        </div>
+
+        <button onclick="addToQueue()">Join Queue</button>
+
+        <h2>Queue List</h2>
+        <div class="queue-list" id="queueList"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
